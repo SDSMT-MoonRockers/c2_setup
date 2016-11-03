@@ -6,4 +6,4 @@ rosdep init
 rosdep update
 echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
-sudo apt-get install python-rosinstall python-catkin-tools ros-kinetic-joy -y
+sudo apt-get install python-rosinstall python-catkin-tools ros-kinetic-joy ros-kinetic-teleop-twist-joy -y
