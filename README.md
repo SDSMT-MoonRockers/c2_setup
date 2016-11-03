@@ -5,7 +5,7 @@ Before anything can be downloaded run the commands: <br />
 sudo apt-get install git <br />
 git clone https://github.com/SDSMT-MoonRockers/c2_setup.git <br />
 
-Now run the script files. 
+Now run the script files by explicity calling bash "file.sh" without the quotes or just by typing ./file.sh
 
 The script files should be ran in the following order: <br />
 1. update.sh (see note below) <br />
@@ -18,7 +18,7 @@ Note: when running the update.sh two diolog boxes will appear. The first will be
 
 Once rebooted run the remaining scripts.
 
-Once all the script files have been run source the bashrc with the following:
+Source the bashrc with the following:
 
 source ~/.bashrc
 
